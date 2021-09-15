@@ -507,7 +507,14 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html,
+.skills__html{
+    width: 90%;
+}
+
+.skills__bootstrap{
+    width: 70%;
+}
+
 .skills__java,
 .skills__photoshop,
 .skills__lightroom{
@@ -527,8 +534,12 @@ img {
     width: 30%;
 }
 
-.skills__php {
+.skills__codeigneter {
     width: 50%;
+}
+
+.skills__laravel {
+    width: 40%;
 }
 
 .skills__mysql {
