@@ -1116,12 +1116,14 @@ img {
     }
 
     .about__img {
-        width: 250px;
+        width: 350px;
     }
 
     .about__description {
+        width: 400px;
         text-align: initial;
         margin-bottom: 0;
+        margin-bottom: var(--mb-2);
     }
 
     .about__data{
@@ -1135,6 +1137,9 @@ img {
 
     .about__info {
         justify-content: space-between;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about__buttons {
