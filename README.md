@@ -6,7 +6,7 @@ Dibuat dengan menggunakan:
 - Javascript
 - Unicons
 
-<a href="https://ifanferdi.github.io"> DEMO </a>
+<a href="https://ifanferdi.github.io" target="_blank"> DEMO </a>
 
 <hr>
 
