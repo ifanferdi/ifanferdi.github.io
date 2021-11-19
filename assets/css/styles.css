@@ -327,33 +327,33 @@ img {
     margin-bottom: var(--mb-2);
 }
 
-.home__scroll{
+.home__scroll {
     display: none;
     margin-top: 4rem;
     width: max-content;
 }
 
-.home__scroll-button{
+.home__scroll-button {
     color: var(--first-color);
     transition: .3s;
 }
 
-.home__scroll-button:hover{
+.home__scroll-button:hover {
     transform: translateY(.25rem);
 }
 
-.home__scroll-mouse{
+.home__scroll-mouse {
     font-size: 2rem;
 }
 
-.home__scroll-name{
+.home__scroll-name {
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
 }
 
-.home__scroll-arrow{
+.home__scroll-arrow {
     font-size: 1.25rem;
 }
 
@@ -367,14 +367,14 @@ img {
     font-weight: var(--font-medium);
 }
 
-.button__secondary{
+.button__secondary {
     display: inline-block;
+    cursor: not-allowed;
     background-color: #9fa5aa;
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-    cursor: default;
 }
 
 .button:hover {
@@ -397,7 +397,7 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about__bold{
+.about__bold {
     font-weight: var(--font-semi-bold);
 }
 
@@ -507,26 +507,23 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html{
+.skills__html {
     width: 90%;
-}
-
-.skills__bootstrap{
-    width: 70%;
 }
 
 .skills__java,
 .skills__photoshop,
-.skills__lightroom{
+.skills__bootstrap,
+.skills__lightroom {
     width: 80%;
 }
 
-.skills__wondershare{
+.skills__wondershare {
     width: 70%;
 }
 
-.skills__css,
-.skills__firebase {
+.skills__firebase,
+.skills__jquery {
     width: 50%;
 }
 
@@ -534,12 +531,10 @@ img {
     width: 30%;
 }
 
+.skills__css,
+.skills__laravel,
 .skills__codeigneter {
-    width: 50%;
-}
-
-.skills__laravel {
-    width: 40%;
+    width: 60%;
 }
 
 .skills__mysql {
@@ -903,7 +898,7 @@ img {
 
     .nav__list {
         column-gap: 0;
-    } 
+    }
 
     .portofolio__button__center {
         margin-top: 1rem;
@@ -926,12 +921,12 @@ img {
         font-size: var(--normal-font-size);
     }
 
-    .qualification__tabs{
+    .qualification__tabs {
         justify-content: center;
         column-gap: 2rem;
     }
 
-    .qualification__button{
+    .qualification__button {
         width: max-content;
         font-size: var(--normal-font-size);
     }
@@ -943,19 +938,19 @@ img {
     .qualification__data {
         gap: .5rem
     }
-    
+
     .portofolio__content {
         justify-content: center;
     }
 
-    .certificate__subtitle{
+    .certificate__subtitle {
         width: 248px;
         margin-left: auto;
         margin-right: auto;
     }
 
     .portofolio__description,
-    .certificate__description{
+    .certificate__description {
         text-align: justify;
     }
 
@@ -980,11 +975,11 @@ img {
         font-size: var(--medium-font-size);
     }
 
-    .about__img{
+    .about__img {
         width: 220px;
     }
 
-    .about__container{
+    .about__container {
         width: 400px;
         margin-left: auto;
         margin-right: auto;
@@ -1006,7 +1001,7 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
-    
+
     .certificate__description {
         width: 320px;
     }
@@ -1029,7 +1024,7 @@ img {
     .portofolio__button__center {
         margin-left: .5rem;
     }
-    
+
     .scroll-header {
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .25);
     }
@@ -1126,11 +1121,11 @@ img {
         margin-bottom: var(--mb-2);
     }
 
-    .about__data{
+    .about__data {
         width: 400px;
     }
 
-    .about__data2{
+    .about__data2 {
         width: 50%;
         margin: auto;
     }
@@ -1159,7 +1154,7 @@ img {
     .portofolio__description {
         width: 320px;
     }
-    
+
     .certificate__description {
         width: 320px;
     }
@@ -1195,6 +1190,7 @@ img {
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
+
     .header,
     .main,
     .footer__container {
@@ -1217,10 +1213,11 @@ img {
         transform: translateX(-5rem);
     }
 
-    .home__scroll{
+    .home__scroll {
         display: grid;
     }
-/* 
+
+    /* 
     .about__img{
         width: ;
     } */
@@ -1243,7 +1240,7 @@ img {
     .portofolio__description {
         width: 360px;
     }
-    
+
     .certificate__description {
         width: 320px;
     }
